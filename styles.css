@@ -380,3 +380,308 @@ body {
         text-align:center;
     }
 }
+@media (min-width: 992px) { 
+    .navbar{
+        height:100px;
+    }
+    .contenido {
+        height:100vh;
+    }
+    .contenido__presentacion {
+        height:auto;
+        width:60%;
+    }
+    .aq {
+        width:50%;  
+    }
+    .textoNombre h1 {
+        font-size:35px;
+    }
+    .textoNombre h2 {
+        font-size:22px;
+    }
+    .about {
+        height:auto;
+        padding-top:70px;
+        padding-bottom:150px;
+    }
+    .tituloAbout {
+        font-size: 50px;
+        margin-bottom:50px;
+    }
+    .descripcion h2 {
+        font-size:35px;
+    }
+    .descripcion p {
+        font-size:20px;
+    }
+    .boton {
+        margin-top:30px;
+    }
+    .boton div {
+        font-size: 30px;
+    }
+    .tituloSkills {
+        font-size:35px;
+    }
+    .item img {
+        height:70px;
+    }
+    .descripcionSkills {
+        font-size:20px;
+    }
+    .tituloProjects {
+        font-size:50px;
+    }
+    .projects {
+        padding-top:100px;
+        padding-bottom: 120px;
+    }
+    .projectsGrid {
+        padding: 0px 100px;
+    }
+    .itemProjects {
+        width:100%;
+    }
+    .descripcionProjects h4 {
+        font-size: 45px;
+    }
+    .descripcionProjects p {
+        font-size:25px;
+    }
+    .iconoProjects {
+        height:40px;
+        margin: 20px 0px;
+    }
+    .botonContainer {
+        margin-top:30px;
+        gap:100px;
+        height:auto;
+    }
+    .botonProjects {
+        height:auto;
+        font-size:30px;
+        text-align:center;
+        padding:12px;
+    }
+    .contact {
+        padding-bottom:50px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .navbar {
+        height: auto;
+    }
+    .contenido {
+        height:100vh;
+    }
+    .contenido__presentacion {
+        height:auto;
+        width:45%;
+    }
+    .aq {
+        width:45%;  
+    }
+    .textoNombre h1 {
+        font-size:25px;
+    }
+    .textoNombre h2 {
+        font-size:18px;
+    }
+    .about {
+        height:auto;
+        padding-top:70px;
+        padding-bottom:150px;
+    }
+    .tituloAbout {
+        font-size: 40px;
+        margin-bottom:50px;
+    }
+    .descripcion {
+        padding: 0px 20px;
+    }
+    .descripcion h2 {
+        font-size:25px;
+    }
+    .descripcion p {
+        font-size:18px;
+    }
+    .descripcion a {
+        align-self:flex-start;
+        margin-left:20px;
+    }
+    .boton {
+        margin-top:30px;
+    }
+    .boton div {
+        font-size: 20px;
+    }
+    .tituloSkills {
+        font-size:30px;
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+    .itemsSkills {
+        grid-row-gap:70px;
+    }
+    .item {
+        width:auto;
+    }
+    .item img {
+        height:50px;
+    }
+    .descripcionSkills {
+        font-size:18px;
+    }
+    .tituloProjects {
+        font-size:40px;
+    }
+    .projects {
+        padding-top:100px;
+        padding-bottom: 120px;
+    }
+    .projectsGrid {
+        padding: 0px 250px;
+    }
+    .itemProjects {
+        width:100%;
+    }
+    .descripcionProjects h4 {
+        font-size: 25px;
+    }
+    .descripcionProjects p {
+        font-size:18px;
+    }
+    .iconoProjects {
+        height:30px;
+        margin: 20px 0px;
+    }
+    .botonContainer {
+        margin-top:30px;
+        gap:100px;
+        height:auto;
+    }
+    .botonProjects {
+        height:auto;
+        font-size:20px;
+        text-align:center;
+        padding:10px;
+    }
+    .contact {
+        padding-bottom:50px;
+    }
+}
+@media (min-width:1400px) {
+    .contenido {
+        height:100vh;
+    }
+    .contenido__presentacion {
+        height:250px;
+        width:500px;
+    }
+    .contenido__presentacion:hover {
+        transform: scale(1.05,1.05);
+        transition: all 1s;
+    }
+    .aq {
+        width:200px;
+        height:auto;
+    }
+    .about {
+        height: 100vh;
+        padding-top:20px;
+        padding-bottom:50px;
+    }
+    .aboutContenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr;
+    }
+    .tituloAbout {
+        font-size: 40px;
+        margin-bottom:10px;
+        text-align: left;
+        margin-left:30px;
+    }
+    .descripcion {
+        padding: 0px 20px;
+    }
+    .descripcion h2 {
+        font-size:25px;
+        margin:0px;
+    }
+    .descripcion p {
+        font-size:18px;
+        margin:0px;
+        margin-bottom:250px;
+    }
+    .descripcion a {
+        align-self:flex-start;
+        margin-left:20px;
+    }
+
+    .tituloSkills {
+        font-size:30px;
+        margin-left:50px;
+        padding: 0px 0px;
+        margin-top:0px;
+        margin-bottom: 100px;
+    }
+    .itemsSkills {
+        grid-row-gap:70px;
+    }
+    
+
+    .tituloProjects {
+        font-size:40px;
+        text-align: left;
+        margin-left:30px;
+    }
+    .projects {
+        padding-top:30px;
+    }
+    .projectsGrid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0px 30px;
+        row-gap: 100px;
+        column-gap: 200px;
+        margin-bottom:100px;
+    }
+    .itemProjects {
+        width:54%;
+        height:100%;
+    }
+    .itemProjectsGrid1 {
+        justify-self: flex-end;
+    }
+    .itemProjectsGrid2 {
+        justify-self: flex-start;
+    }
+    
+    .descripcionProjects h4 {
+        font-size: 25px;
+    }
+    .descripcionProjects p {
+        font-size:15px;
+    }
+    .iconoProjects {
+        height:30px;
+        margin: 0px;
+    }
+    .botonContainer {
+        margin-top:20px;
+        gap:100px;
+        height:auto;
+    }
+    .botonProjects {
+        height:auto;
+        font-size:18px;
+        text-align:center;
+        padding:10px;
+    }
+    .contact {
+        padding-top:50px;
+        padding-bottom:0px;
+    }
+}
