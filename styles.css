@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
     font-family: 'Oswald', sans-serif;
@@ -420,6 +421,12 @@ header {
     .navbarMenuVisible {
         left:0;
     }
+    .iconoWhite {
+        color:white;
+        justify-self:flex-end;
+        align-self:flex-end;
+        padding:0 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -690,9 +697,15 @@ header {
         width:200px;
         height:auto;
     }
+    .textoNombre h1 {
+        font-size:25px;
+    }
+    .textoNombre h2 {
+        font-size:20px;
+    }
     .about {
         height: 100vh;
-        padding-top:20px;
+        padding-top:50px;
         padding-bottom:50px;
     }
     .aboutContenedor {
@@ -743,7 +756,7 @@ header {
         margin-left:30px;
     }
     .projects {
-        padding-top:30px;
+        padding-top:50px;
     }
     .projectsGrid {
         grid-template-columns: 1fr 1fr;

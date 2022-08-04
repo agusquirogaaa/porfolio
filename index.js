@@ -1,12 +1,13 @@
-const botonnavbar = document.querySelector(".botonNavbar")
-const navbarmenu = document.querySelector(".navbarMenu")
+const navToggle = document.querySelector(".botonNavbar");
+const navMenu = document.querySelector(".navbarMenu");
+navToggle.addEventListener("click",()=>{
+  navMenu.classList.toggle("navbarMenuVisible");
+});
 
-botonnavbar.addEventListener("click", () => {
-    navbarmenu.classList.toggle("navbarMenuVisible");
+const navLink = document.querySelectorAll(".navbarLink")
 
-if(navbarmenu.classList.contains("navbarMenuVisible")) {
-    botonnavbar.setAttribute("aria-label","Cerrar menú");
-} else {
-    botonnavbar.setAttribute("aria-label","Abrir menú");
+function linkAction () {
+    const navMenu = document.querySelector(".navbarMenu")
+    navMenu.classList.remove("navbarMenuVisible")
 }
-})
+navLink.forEach(n => n.addEventListener('click', linkAction))
